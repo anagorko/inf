@@ -65,8 +65,8 @@ class Optimized(TournamentTree):
             self.needcompute[x] = True
     
     def increment(self, a: int, b: int, wartosc : int = 1):
-        x : int = self.N + a;
-        y : int = self.N + b;
+        x : int = self.N + a
+        y : int = self.N + b
 
         self.tree[x] = self.tree[x] + wartosc
         self._addUp(x)
@@ -85,9 +85,9 @@ class Optimized(TournamentTree):
             x = x // 2
             y = y // 2
 
-    def increment(self, a: int, b: int, wartosc : int = 1):
-        x : int = self.N + a;
-        y : int = self.N + b;
+    def decrement(self, a: int, b: int, wartosc : int = 1):
+        x : int = self.N + a
+        y : int = self.N + b
 
         self.tree[x] = self.tree[x] - wartosc
         self._addUp(x)
@@ -125,38 +125,23 @@ class TournamentTreeUnitTest(unittest.TestCase):
         self.assertEqual(tt.max(), 3)
     def test_optimal_tree(self):
         tb = BruteForce()
-        to = Optimized(1000)
-        
-        for i in range(1000):
-            for j in range(1000):
+        to = Optimized(100)
+
+        for i in range(100):
+            for j in range(i, 100):
                 tb.increment(i, j)
                 to.increment(i, j)
                 self.assertEqual(tb.max(), to.max())
-        for i in range(1000):
-            for j in range(1000):
+        for i in range(100):
+            for j in range(i, 100):
                 tb.decrement(i, j)
                 to.decrement(i, j)
                 self.assertEqual(tb.max(), to.max())
 
 
 def main():
-    tt = BruteForce()
-    tt.increment(1, 3)
-    tt.increment(3, 5)
-    tt.increment(2, 3)
+    print("tak")
 
-    print(tt.counters)
-
-    tt2 = Optimized(6)
-    tt2.increment(1, 3)
-    tt2.increment(3, 5)
-    tt2.increment(2, 3)
-    tt2.increment(0, 5)
-    print(tt2.tree)
-    tt2.decrement(0, 5)
-    print(tt2.tree)
-    print(tt2.max())
-    print(tt.max())
 
 if __name__ == '__main__':
     main()
