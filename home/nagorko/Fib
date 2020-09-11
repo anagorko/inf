@@ -1,0 +1,51 @@
+"""
+Finding all divisors of a number.
+"""
+
+# from typing import List, Set
+import unittest
+
+def fib_iter(n: int) -> int:
+    """Compute nth Fibonacci number. Iterative version."""
+    result = [1]
+    a = 1
+    b = 1
+    c_pomoc = 0
+    for i in range(n-1):
+        result.append(b)
+        c = b
+        b = a+b
+        a = c
+    return(result)
+
+
+def fib_rec(n: int) -> int:
+    """Compute nth Fibonacci number. Recursive version."""
+    
+
+class DivisorTest(unittest.TestCase):
+    """Unit tests for divisor functions."""
+
+    def test_handcrafted_examples(self):
+        """Test some small hand picked examples."""
+        self.assertListEqual(divisors(12), [1, 2, 3, 4, 6, 12])
+
+    def test_divisors2(self):
+        """Test divisors2 vs divisors."""
+        for test_case in range(1, 1000):
+            result = divisors(test_case)
+            result2 = sorted(divisors2(test_case))
+
+            self.assertListEqual(result, result2)
+
+    def test_divisors3(self):
+        """Test divisors3 vs divisors."""
+        for test_case in range(1, 1000):
+            result = divisors(test_case)
+            result2 = sorted(divisors3(test_case))
+
+            self.assertListEqual(result, result2)
+
+
+if __name__ == '__main__':
+    print(fib_iter(10))
