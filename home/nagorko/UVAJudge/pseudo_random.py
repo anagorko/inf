@@ -6,27 +6,23 @@ https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_prob
 from sys import stdin
 
 
-def is_in_sequence(a, b):
-    for i in a:
-        if i == b:
-            return True
-    return False
-
-
 def generate_sequence(z, i, m, l):
-    sequence = [l]
+    sequence = {l}
     counter = 1
     while True:
         l = (z*l+i) % m
-        if is_in_sequence(sequence, l):
+        if l in sequence:
             return counter
         else:
-            sequence.append(l)
+            sequence.add(l)
             counter += 1
 
 
 count = 1
 while stdin:
     wejscie = list(map(int, input().split()))
+    if wejscie == [0, 0, 0, 0]:
+        break
     print("Case ", count, ": ", generate_sequence(wejscie[0], wejscie[1], wejscie[2], wejscie[3]))
     count += 1
+
