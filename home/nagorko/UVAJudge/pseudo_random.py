@@ -1,5 +1,7 @@
 """
 kod do zadania pseudo_random, przekracza limity czasowe
+treść:
+https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=286
 """
 from sys import stdin
 
