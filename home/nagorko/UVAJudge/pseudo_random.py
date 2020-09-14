@@ -1,3 +1,6 @@
+"""
+kod do zadania pseudo_random, przekracza limity czasowe
+"""
 from sys import stdin
 
 
