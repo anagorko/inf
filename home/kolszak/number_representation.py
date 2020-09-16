@@ -43,6 +43,7 @@ def _convert_from_dec(value: int, to_system: int) -> List[int]:
 
 
 def convert(value: str, from_system: int, to_system: int) -> str:
+    """Convert values between selected positional systems."""
     v = []
     for c in value:
         v.append(digits_reverted[c])
