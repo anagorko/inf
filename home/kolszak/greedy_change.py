@@ -21,7 +21,7 @@ def change(amount: int) -> Dict[int, int]:
 class GreedyChangeTest(unittest.TestCase):
     """Change function tests."""
 
-    def change_test(self):
+    def test_change_test(self):
         """Test some small hand picked example."""
-        self.assertEqual(change(1423), {500: 2, 200: 2, 100: 0, 50: 0, 20 : 1, 10: 0, 5: 0, 2: 1, 1: 1})
+        self.assertEqual(change(1423), {500: 2, 200: 2, 100: 0, 50: 0, 20: 1, 10: 0, 5: 0, 2: 1, 1: 1})
 
