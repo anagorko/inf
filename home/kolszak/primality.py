@@ -17,7 +17,7 @@ def is_prime(n: int) -> bool:
 class IsPrimeTest(unittest.TestCase):
     """is_prime function tests."""
 
-    def is_prime_test(self):
+    def test_is_prime_test(self):
         """Test some small hand picked example."""
         self.assertEqual(is_prime(78), False)
         self.assertEqual(is_prime(7), True)
