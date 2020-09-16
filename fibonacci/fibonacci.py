@@ -9,12 +9,12 @@ import timeit
 def iterative(n: int) -> int:
     """Compute nth Fibonacci number. Iterative version."""
 
-    f = [1, 1]
+    sequence = [1, 1]
 
-    for i in range(n - 2):
-        f.append(f[-1] + f[-2])
+    for _ in range(n - 2):
+        sequence.append(sequence[-1] + sequence[-2])
 
-    return f[-1]
+    return sequence[-1]
 
 
 def recursive(n: int) -> int:
@@ -30,22 +30,28 @@ class FibonacciTest(unittest.TestCase):
     """Unit tests for mod_power functions"""
 
     def test_handcrafted_examples(self):
+        """Some hand crafted tests."""
         self.assertEqual(iterative(3), 2)
         self.assertEqual(recursive(4), 3)
         self.assertEqual(iterative(5), 5)
         self.assertEqual(recursive(6), 8)
 
     def test_iterative_vs_recursive(self):
-        for n in range(10):
+        """Compare iterative and recursive versions."""
+        for n in range(20):
             self.assertEqual(iterative(n), recursive(n))
 
 
-def main():
+def benchmark():
+    """Recursive vs iterative benchmark."""
     for n in range(100):
-        time_iterative = timeit.timeit(f'fibonacci.iterative({n})', setup='import fibonacci', number=1)
-        time_recursive = timeit.timeit(f'fibonacci.recursive({n})', setup='import fibonacci', number=1)
-        print(f'n = {n}, iterative time: {time_iterative:.8f}, recursive time: {time_recursive:.8f}')
+        time_iterative = timeit.timeit(f'fibonacci.iterative({n})', setup='import fibonacci',
+                                       number=1)
+        time_recursive = timeit.timeit(f'fibonacci.recursive({n})', setup='import fibonacci',
+                                       number=1)
+        print(f'n = {n}, iterative time: {time_iterative:.8f}, recursive time:'
+              f'{time_recursive:.8f}')
 
 
 if __name__ == '__main__':
-    main()
+    benchmark()
