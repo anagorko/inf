@@ -2,6 +2,13 @@
 
 ## Zajęcia
 
+### 16 września
+
+* W katalogu [sorting/](sorting/): napisz implementacje sortowania bąbelkowego, przez wybór i przez scalanie. 
+Do każdego napisz testy **i przetestuj czas wykonania**. Wzór jak testować znajdziesz w rozwiązaniu zadania [fibonacci/][Fibonacci].
+
+* W katalogu [maxmin/](maxmin/) pokazana jest "naiwna" i "zoptymalizowana" wersja algorytmu znajdującego maksimum i minimum w ciągu wraz z benchmarkiem.
+
 ### 11 września
 
 * W katalogu [fibonacci/](fibonacci/): napisz funkcje obliczające n-ty wyraz ciągu 
