@@ -28,13 +28,13 @@ def fibonacci_iterative(n: int) -> int:
 class FibonacciTest(unittest.TestCase):
     """Fibonacci compute functions tests."""
 
-    def fibonacci_iterative_test(self):
+    def test_fibonacci_iterative(self):
         """Test some small hand picked example."""
         self.assertEqual(fibonacci_iterative(6), 8)
         self.assertEqual(fibonacci_iterative(7), 13)
         self.assertEqual(fibonacci_iterative(8), 21)
 
-    def fibonacci_recursive_test(self):
+    def test_fibonacci_recursive(self):
         """Test some small hand picked example."""
         self.assertEqual(fibonacci_recursive(6), 8)
         self.assertEqual(fibonacci_recursive(7), 13)
