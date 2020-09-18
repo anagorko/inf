@@ -8,7 +8,7 @@
 ```
 def bucket_sort(numbers: List[int], lowest: int, highest: int) -> List[int]:
 ```
-gdzie 'lowest' jest najmniejszą wartością w liście a 'highest' największą. Nie zapomnij o *unit testach* i porównaj czas działania z czasem działania sortowania bąbelkowego i przez scalanie.
+gdzie `lowest` jest najmniejszą wartością w liście a `highest` największą. Nie zapomnij o *unit testach* i porównaj czas działania z czasem działania sortowania bąbelkowego i przez scalanie.
 
 * W katalogu [numeric/](numeric/) w pliku `area.py` zaimplementuj algorytm obliczania pola pod wykresem funkcji pisząc funkcję o sygnaturze
 ```
