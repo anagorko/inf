@@ -4,7 +4,7 @@
 
 ### 18 września
 
-* W katalogu [sorting/](sorting/) utwórz plik 'bucket.py' i zaimplementuj algorytm sortowania kubełkowego pisząc funkcję o sygnaturze
+* W katalogu [sorting/](sorting/) utwórz plik `bucket.py` i zaimplementuj algorytm sortowania kubełkowego pisząc funkcję o sygnaturze
 ```
 def bucket_sort(numbers: List[int], lowest: int, highest: int) -> List[int]:
 ```
