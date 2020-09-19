@@ -33,7 +33,7 @@ gdzie `n` to liczba prób.
 ### 16 września
 
 * W katalogu [sorting/](sorting/): napisz implementacje sortowania bąbelkowego, przez wybór i przez scalanie. 
-Do każdego napisz testy **i przetestuj czas wykonania**. Wzór jak testować znajdziesz w rozwiązaniu zadania [fibonacci/](Fibonacci).
+Do każdego napisz testy **i przetestuj czas wykonania**. Wzór jak testować znajdziesz w rozwiązaniu zadania [fibonacci/](fibonacci).
 
 * W katalogu [maxmin/](maxmin/) pokazana jest "naiwna" i "zoptymalizowana" wersja algorytmu znajdującego maksimum i minimum w ciągu wraz z benchmarkiem.
 
