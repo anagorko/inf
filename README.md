@@ -24,7 +24,7 @@ def f(x: float) -> float:
 a = area(f, -1, 1, n)    # interesuje nas zmiana wyniku dla różnych wartości n
 ```
 
-* W katalogu [numeric/][numeric/] w pliku `monte.py` zaimplementuj algorytm obliczania wartości liczby pi metodą Monte Carlo omówioną na lekcji.
+* W katalogu [numeric/](numeric/) w pliku `monte.py` zaimplementuj algorytm obliczania wartości liczby pi metodą Monte Carlo omówioną na lekcji.
 ```
 def pi(n: int) -> float:
 ```
