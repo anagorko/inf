@@ -45,7 +45,7 @@ for k, v in anagrams.items():
         if len(k) > len(longest_anagram):
             longest_anagram = k
 
-print(f'most common anagram: {most_common_anagram} : {len(most_common_anagram) - 1}')
+print(f'most common anagram: {most_common_anagram} : {len(most_common_anagram) - 1}') #len returns 1 higher value
 print()
-print(f'longest anagram: {longest_anagram} : {len(longest_anagram) - 1}')
+print(f'longest anagram: {longest_anagram} : {len(longest_anagram) - 1}') #len returns 1 higher value
 
