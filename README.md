@@ -24,7 +24,7 @@ Algorytmy omówimy na zajęciach.
 ```
 def zero_bisect(f: Callable[[float], float], a: float, b: float, precision: float) -> float
 ```
-znajdującą miejsce zerowe funkcji `f` w przedziale `[a, b]` z dokładnością `precision` (metodą bisekcji).
+znajdującą miejsce zerowe funkcji `f` w przedziale `[a, b]` z dokładnością `precision` (metodą bisekcji). Zakładamy, że znaki `f(a)` i `f(b)` są różne.
 
 Wykorzystaj tę funkcję do obliczenia wartości `log_2 3` (logarytmu z 3 o podstawie 2).
 
