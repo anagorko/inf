@@ -2,6 +2,32 @@
 
 ## Zajęcia
 
+### 23 września
+
+* W katalogu [text/](text/) utwórz plik `anagram.py` i zaimplementuj funkcję
+
+```
+def is_anagram(a: str, b: str) -> bool
+```
+
+zwracającą `True` jedynie jeśli wyrazy `a` i `b` są anagramami.
+
+Następnie napisz program, który znajduje wszystkie grupy anagramów w [słowniku wyrazów angielskich](https://raw.githubusercontent.com/dwyl/english-words/master/words.txt). Znajdź
+
+- grupę najliczniejszą
+- grupę (nie jedno-elementową) z największą liczbą liter.
+
+Algorytmy omówimy na zajęciach.
+
+* W katalogu [numeric/](numeric/) w pliku `bisect.py` zaimplementuj funkcję
+
+```
+def zero_bisect(f: Callable[[float], float], a: float, b: float, precision: float) -> float
+```
+znajdującą miejsce zerowe funkcji `f` w przedziale `[a, b]` z dokładnością `precision` (metodą bisekcji).
+
+Wykorzystaj tę funkcję do obliczenia wartości `log_2 3` (logarytmu z 3 o podstawie 2).
+
 ### 18 września
 
 * W katalogu [sorting/](sorting/) utwórz plik `bucket.py` i zaimplementuj algorytm sortowania kubełkowego pisząc funkcję o sygnaturze
