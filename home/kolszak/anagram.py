@@ -11,10 +11,8 @@ def sort_word(a: str) -> List[int]:
         buckets[value] += 1
     result = list()
     for i in range(min_value, max_value + 1):
-        j = 0
-        while j < buckets[i]:
+        for _ in range(buckets[i]):
             result.append(i)
-            j += 1
     return result
 
 
@@ -33,7 +31,7 @@ def get_anagrams(data: List[str]) -> Dict[str, Set[str]]:
     return result
 
 
-path = 'C:/Users/IChri/Downloads/words.txt'
+path = 'C:/Users/IChri/Downloads/words.txt' #file path
 f = open(path, 'r')
 data = f.readlines()
 anagrams = get_anagrams(data)
@@ -47,6 +45,7 @@ for k, v in anagrams.items():
         if len(k) > len(longest_anagram):
             longest_anagram = k
 
-print(f'most common anagram: {most_common_anagram} : {len(most_common_anagram)}')
-print(f'longest anagram: {longest_anagram} : {len(longest_anagram)}')
+print(f'most common anagram: {most_common_anagram} : {len(most_common_anagram) - 1}')
+print()
+print(f'longest anagram: {longest_anagram} : {len(longest_anagram) - 1}')
 
