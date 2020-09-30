@@ -44,6 +44,8 @@ Warto wspomnieć tu informatyczną zasadę "garbage in garbage out".
 
 * Pozostały czas spędzimy na rozwiązaniu [zadania 'podzielność'](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf) ze strony 71 informatora maturalnego. [Pliki z danymi](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka-Dane-i-rozwiazania.zip).
 
+* Dla osób, którym zadanie 21 nie sprawiło problemy, jest zadanie [Don't Get Rooked](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=108&page=show_problem&problem=580). Proszę zwrócić uwagę, że zadanie pochodzi z kategorii [Brute Force::Backtracking](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=108) (znaczenie tych słów wyjaśnię zainteresownym).
+
 ### 23 września
 
 * W katalogu [text/](text/) utwórz plik `anagram.py` i zaimplementuj funkcję
