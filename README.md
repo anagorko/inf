@@ -42,7 +42,7 @@ Warto wspomnieć tu informatyczną zasadę "garbage in garbage out".
 
 * Wyznaczymy ochotnika, który opracuje krótką informację na temat algorytmów [wyszukiwania wzorca w tekście](https://en.wikipedia.org/wiki/String-searching_algorithm)
 
-* Pozostały czas spędzimy na rozwiązaniu [zadania 'podzielność'](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf) ze strony 71 informatora maturalnego.
+* Pozostały czas spędzimy na rozwiązaniu [zadania 'podzielność'](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf) ze strony 71 informatora maturalnego. [Pliki z danymi](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka-Dane-i-rozwiazania.zip).
 
 ### 23 września
 
