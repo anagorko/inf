@@ -2,6 +2,48 @@
 
 ## Zajęcia
 
+### 30 września
+
+* Przeczytamy wspólnie [rozwiązanie zadania anagramy](text/anagrams.py). Wynik działania programu na [słowniku ponad 100 tysięcy polskich słów](https://ftp.icm.edu.pl/packages/wordlists/polish/):
+
+```
+adekr ['darek', 'derka', 'kadre', 'kedra', 'kreda', 'radek', 'redak']
+den ['den', 'dne', 'edn', 'end', 'nde', 'ned']
+dhq ['dhq', 'dqh', 'hdq', 'hqd', 'qdh', 'qhd']
+dot ['dot', 'dto', 'odt', 'otd', 'tdo', 'tod']
+efj ['efj', 'ejf', 'fej', 'fje', 'jef', 'jfe']
+efq ['efq', 'eqf', 'feq', 'fqe', 'qef', 'qfe']
+egl ['egl', 'elg', 'gel', 'gle', 'leg', 'lge']
+ehj ['ehj', 'ejh', 'hej', 'hje', 'jeh', 'jhe']
+ejs ['ejs', 'esj', 'jes', 'jse', 'sej', 'sje']
+aeknr ['ekran', 'karne', 'kerna', 'nerka', 'ranek', 'ranke']
+eimn ['emin', 'mein', 'mien', 'mine', 'mnie', 'niem']
+epr ['epr', 'erp', 'per', 'pre', 'rep', 'rpe']
+eps ['eps', 'esp', 'pes', 'pse', 'sep', 'spe']
+est ['est', 'ets', 'set', 'ste', 'tes', 'tse']
+fin ['fin', 'fni', 'ifn', 'inf', 'nfi', 'nif']
+ghi ['ghi', 'gih', 'hgi', 'hig', 'igh', 'ihg']
+gps ['gps', 'gsp', 'pgs', 'psg', 'sgp', 'spg']
+hpu ['hpu', 'hup', 'phu', 'puh', 'uhp', 'uph']
+ips ['ips', 'isp', 'pis', 'psi', 'sip', 'spi']
+ipt ['ipt', 'itp', 'pit', 'pti', 'tip', 'tpi']
+aklsu ['kalus', 'klaus', 'kulas', 'lasku', 'lukas', 'luska']
+aaklp ['kapal', 'kapla', 'klapa', 'lapka', 'palak', 'palka']
+aiklw ['kiwal', 'kwali', 'lawki', 'walki', 'wikla', 'wilka']
+alpu ['lapu', 'lupa', 'palu', 'paul', 'pula', 'upal']
+lrt ['lrt', 'ltr', 'rlt', 'rtl', 'tlr', 'trl']
+ailns ['lsnia', 'silna', 'slain', 'slina', 'snail', 'snila']
+mop ['mop', 'mpo', 'omp', 'opm', 'pmo', 'pom']
+aoprw ['opraw', 'parow', 'porwa', 'prawo', 'prowa', 'prwoa']
+ceiisw ['siwiec', 'swicie', 'swieci', 'wiesci', 'wiesic', 'wiscie', 'wisiec']
+```
+
+Warto wspomnieć tu informatyczną zasadę "garbage in garbage out".
+
+* Wyznaczymy ochotnika, który opracuje krótką informację na temat algorytmów [wyszukiwania wzorca w tekście](https://en.wikipedia.org/wiki/String-searching_algorithm)
+
+* Pozostały czas spędzimy na rozwiązaniu [zadania 'podzielność'](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf) ze strony 71 informatora maturalnego.
+
 ### 23 września
 
 * W katalogu [text/](text/) utwórz plik `anagram.py` i zaimplementuj funkcję
