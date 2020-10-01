@@ -31,21 +31,21 @@ def get_anagrams(data: List[str]) -> Dict[str, Set[str]]:
     return result
 
 
-path = 'C:/Users/IChri/Downloads/words.txt' #file path
+path = 'C:/Users/IChri/Downloads/words.txt'
 f = open(path, 'r')
 data = f.readlines()
-anagrams = get_anagrams(data)
+groups = get_anagrams(data)
 
 most_common_anagram = ''
 longest_anagram = ''
-for k, v in anagrams.items():
-    if len(v) > len(most_common_anagram):
+for k, v in groups.items():
+    if len(v) > len(groups.get(most_common_anagram, [])):
         most_common_anagram = k
     if len(v) > 1:
         if len(k) > len(longest_anagram):
             longest_anagram = k
 
-print(f'most common anagram: {most_common_anagram} : {len(most_common_anagram) - 1}') #len returns 1 higher value
+print(f'most common anagram: {most_common_anagram} : {len(groups.get(most_common_anagram, [])) - 1}')
 print()
-print(f'longest anagram: {longest_anagram} : {len(longest_anagram) - 1}') #len returns 1 higher value
+print(f'longest anagram: {longest_anagram} : {len(longest_anagram) - 1}')
 
