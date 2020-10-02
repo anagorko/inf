@@ -6,8 +6,8 @@
 
 Dzis trudniejszy temat: [kodowanie Huffmana](https://pl.wikipedia.org/wiki/Kodowanie_Huffmana).
 
-Nie dostajecie gotowych sygnatur funkcji. 
-Na lekcji omówimy działanie algorytmui spróbujemy wspólnie zaprojektować struktury danych oraz sygnatury funkcji na nich działających.
+Nie dostajecie gotowych sygnatur funkcji (czy klas). 
+Na lekcji omówimy działanie algorytmu i spróbujemy wspólnie zaprojektować struktury danych oraz sygnatury funkcji na nich działających.
 
 Do omówienia są operacje:
 
