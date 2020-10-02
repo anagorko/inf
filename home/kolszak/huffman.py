@@ -45,7 +45,7 @@ def get_occurrences(text: str) -> Dict[chr, int]:
 
 def generate_tree(occurrences: Dict[chr, int]) -> Branch:
     b_dict = {Branch(character=k): v for k, v in occurrences.items()}
-    branches = list(sorted(b_dict.items(), key=lambda item: item[1], reverse=True))  # todo: change list to linked list to increase performance
+    branches = list(sorted(b_dict.items(), key=lambda item: item[1], reverse=True))  # todo: change list to something with faster insert to increase performance
     while len(branches) > 1:
         new_branch = Branch(child0=branches[-1][0], child1=branches[-2][0])
         new_occurrence = branches[-1][1] + branches[-2][1]
