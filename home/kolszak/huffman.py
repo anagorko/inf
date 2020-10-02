@@ -45,12 +45,11 @@ def get_occurrences(text: str) -> Dict[chr, int]:
 
 def generate_tree(occurrences: Dict[chr, int]) -> Branch:
     b_dict = {Branch(character=k): v for k, v in occurrences.items()}
-    branches = list(sorted(b_dict.items(), key=lambda item: item[1], reverse=True))  # todo: change list to something with faster insert to increase performance
+    branches = list(sorted(b_dict.items(), key=lambda item: item[1], reverse=True))
     while len(branches) > 1:
         new_branch = Branch(child0=branches[-1][0], child1=branches[-2][0])
         new_occurrence = branches[-1][1] + branches[-2][1]
         branches = branches[:-2]
-        # todo: code below - bisect method to increase performance
         if len(branches) == 0:
             branches.append((new_branch, new_occurrence))
         else:
@@ -58,7 +57,6 @@ def generate_tree(occurrences: Dict[chr, int]) -> Branch:
                 if i + 1 == len(branches) or new_occurrence >= branches[i + 1][1]:
                     branches.insert(i + 1, (new_branch, new_occurrence))
                     break
-        # todo: end
         del new_branch
         del new_occurrence
     branches[0][0].top = True
