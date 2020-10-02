@@ -63,6 +63,14 @@ def generate_tree(occurrences: Dict[chr, int]) -> Branch:
     return branches[0][0]
 
 
+def encode_to_file(text: str, path: str):
+    pass
+
+
+def decode_from_file(path: str) -> str:
+    pass
+
+
 sample_text = 'ala ma kota zjadla koze itd'
 occ = get_occurrences(sample_text)
 tree = generate_tree(get_occurrences(sample_text))
