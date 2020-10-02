@@ -2,6 +2,21 @@
 
 ## Zajęcia
 
+### 2 października
+
+Dzis trudniejszy temat: [kodowanie Huffmana](https://pl.wikipedia.org/wiki/Kodowanie_Huffmana).
+
+Nie dostajecie gotowych sygnatur funkcji. 
+Na lekcji omówimy działanie algorytmui spróbujemy wspólnie zaprojektować struktury danych oraz sygnatury funkcji na nich działających.
+
+Do omówienia są operacje:
+
+* Kompresja, gdy mamy *dany* zestaw kodów odpowiadających kodowanym symbolom (przyjmijmy, że tekst zawsze dzielimy na pojedyńcze litery). Czy do kompresji właściwe jest drzewo Huffmana, czy może inna struktura?
+* Dekompresja, gdy mamy *dane* drzewo Huffmana.
+* Konwersja pomiędzy strukturami z powyższych dwóch punktów.
+* Tworzenie drzewa Huffmana dla danego tekstu.
+
+
 ### 30 września
 
 * Przeczytamy wspólnie [rozwiązanie zadania anagramy](text/anagrams.py). Wynik działania programu na [słowniku ponad 100 tysięcy polskich słów](https://ftp.icm.edu.pl/packages/wordlists/polish/):
