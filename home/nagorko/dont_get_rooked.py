@@ -1,3 +1,6 @@
+import sys
+
+
 def is_neighbour(x, y, table):
     if x < 0 or y < 0 or x > len(table[0]) - 1 or y > len(table) - 1:
         return False
@@ -36,6 +39,7 @@ def find_first_grade(table):
                 counter += 1
                 table[y][x] = "R"
                 select_impossible(x, y, table)
+
     return counter
 
 
@@ -64,16 +68,17 @@ def count_num_walls(row):
     for x, i in enumerate(row):
         if x == 0:
             last = i
-            if i is not "X":
+            if i is ".":
                 result += 1
         else:
-            if last == "X" and i is not "X":
+            if (last is "X" or "_") and i is ".":
                 result += 1
             last = i
     return result
 
 
 def count_cols_and_rows(table):
+
     cols = 0
     rows = 0
     last = ""
@@ -87,9 +92,11 @@ def count_cols_and_rows(table):
                 if table[y][x] is ".":
                     cols += 1
             else:
-                if last == "X" and table[y][x] is ".":
+                if last is not "." and table[y][x] is ".":
                     cols += 1
+
                 last = table[y][x]
+
     if cols > rows:
         return rows
     else:
@@ -100,7 +107,20 @@ def count_all(table):
     return find_first_grade(table) + count_cols_and_rows(table)
 
 
-board = [["X", ".", "X", "."], [".", ".", ".", "."], [".", ".", ".", "X"], [".", ".", "X", "."]]
+def split(word):
+    return [char for char in word]
 
-visualize(board)
-print(count_all(board))
+
+board = [[".", ".", ".", "."], [".", ".", ".", "."], ["X", "X", "X", "X"], [".", ".", "X", "."]]
+
+
+while True:
+    line = input()
+    if line == "0":
+        break
+    if line == "1" or line == "2" or line == "3" or line == "4":
+        data = []
+        for _ in range(int(line)):
+            data.append(split(input()))
+        print(count_all(data))
+
