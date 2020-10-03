@@ -4,7 +4,7 @@ import copy
 
 
 class Branch:
-    def __init__(self, child0: 'Branch' = None, child1: 'Branch' = None, character: chr = '\0'):
+    def __init__(self, child0: 'Branch' = None, child1: 'Branch' = None, character: chr = None):
         self.child0 = child0
         self.child1 = child1
         self.character = character
@@ -13,7 +13,7 @@ class Branch:
     def get_character(self, code: str) -> chr:
         if self.top:
             code = code + '0'
-        if self.character != '\0':
+        if self.character is not None:
             return self.character
         elif len(code) == 1:
             return None
@@ -26,7 +26,7 @@ class Branch:
                 return None
 
     def get_characters_codes(self) -> Dict[chr, str]:
-        if self.character != '\0':
+        if self.character is not None:
             return {self.character: ''}
         else:
             a = {k: '0' + v for k, v in self.child0.get_characters_codes().items()}
@@ -34,7 +34,7 @@ class Branch:
             return {**a, **b}
 
 
-def get_occurrences(text: str) -> Dict[chr, int]:
+def _get_occurrences(text: str) -> Dict[chr, int]:
     result = dict()
     for c in text:
         if result.get(c, None) is None:
@@ -43,7 +43,7 @@ def get_occurrences(text: str) -> Dict[chr, int]:
     return result
 
 
-def generate_tree(occurrences: Dict[chr, int]) -> Branch:
+def _generate_tree(occurrences: Dict[chr, int]) -> Branch:
     b_dict = {Branch(character=k): v for k, v in occurrences.items()}
     branches = list(sorted(b_dict.items(), key=lambda item: item[1], reverse=True))
     while len(branches) > 1:
@@ -72,7 +72,7 @@ def decode_from_file(path: str) -> str:
 
 
 sample_text = 'ala ma kota zjadla koze itd'
-occ = get_occurrences(sample_text)
-tree = generate_tree(get_occurrences(sample_text))
+occ = _get_occurrences(sample_text)
+tree = _generate_tree(occ)
 print(occ)
 print(tree.get_characters_codes())
