@@ -52,6 +52,8 @@ def code_to_tree(code: Dict) -> dict:
 
 Do zrobienia.
 
+* Komentarze
+* Testy
 * Dokończenie implementacji `code_to_tree`
 * Zaimplementowanie `tree_to_code`
 * Zaimplementowanie `generate_tree`
