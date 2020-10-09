@@ -2,6 +2,63 @@
 
 ## Zajęcia
 
+### 9 października
+
+Kontynuujemy implementację kodowania Huffmana. Dotychczasowa implementacja.
+
+```python
+def encode(text: str, table: Dict[str, str]) -> str:
+    """1 + 2 -> 3"""
+    output = []
+    for letter in text:
+        output.append(table[letter])
+    return ''.join(output)
+
+
+def decode(text: str, tree: Dict) -> str:
+    """3 + 4 -> 1"""
+    i = iter(text)
+    result = []
+    t = tree
+    while True:
+        if isinstance(t, str):
+            result.append(t)
+            t = tree
+        else:
+            bit = next(i, None)
+            if bit is None:
+                break
+            elif bit == "0":
+                t = t[0]
+            elif bit == "1":
+                t = t[1]
+    return "".join(result)
+
+
+def code_to_tree(code: Dict) -> dict:
+    tree = dict()
+
+
+    def str_to_tree_rec(value: str, key: str, drzewo: Dict):
+        if len(drzewo) is 1:
+            drzewo[value[0]] = key
+
+        if drzewo.get(value[0], False) is not None:
+            str_to_tree_rec(value[1:], key, drzewo[value[0]])
+        else:
+            drzewo[value[0]] = {}
+            str_to_tree_rec(value[1:], key, drzewo[value[0]])
+```
+
+Do zrobienia.
+
+* Dokończenie implementacji `code_to_tree`
+* Zaimplementowanie `tree_to_code`
+* Zaimplementowanie `generate_tree`
+* Wymyślenie sposobu zapisu/odczytu drzewa z kodowaniem
+* Projekt i implementacja funkcji `encode_to_file` (potrzebna biblioteka [bitstream](https://pypi.org/project/bitstream/))
+* Projekt i implementacja funkcji `decode_from_file` (znów przyda się [bitstream](https://pypi.org/project/bitstream/))
+
 ### 2 października
 
 Dzis trudniejszy temat: [kodowanie Huffmana](https://pl.wikipedia.org/wiki/Kodowanie_Huffmana).
