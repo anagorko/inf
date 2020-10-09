@@ -63,6 +63,44 @@ def _generate_tree(occurrences: Dict[chr, int]) -> Branch:
     return branches[0][0]
 
 
+def _character_codes_to_tree(data: Dict[chr, str]) -> Branch:
+    tree = Branch()
+    current_branch = tree
+    for k, v in data.items():
+        for i in range(len(v)):
+            if v[i] == '0':
+                if current_branch.child0 is None:
+                    current_branch.child0 = Branch()
+                current_branch = current_branch.child0
+            elif v[i] == '1':
+                if current_branch.child1 is None:
+                    current_branch.child1 = Branch()
+                current_branch = current_branch.child1
+            if i + 1 == len(v):
+                current_branch.character = k
+        current_branch = tree
+    return tree
+
+
+def _encode(text: str, b: Branch) -> str:
+    codes = b.get_characters_codes()
+    result = ''
+    for c in text:
+        result += codes[c]
+    return result
+
+
+def _decode(text: str, b: Branch) -> str:
+    codes = b.get_characters_codes()
+    t = copy.deepcopy(text)
+    result = ''
+    i = 0
+    while i < len(t) - 1:
+        result += b.get_character(t[i:])
+        i += len(codes[result[-1]])
+    return result
+
+
 def encode_to_file(text: str, path: str):
     pass
 
@@ -74,5 +112,7 @@ def decode_from_file(path: str) -> str:
 sample_text = 'ala ma kota zjadla koze itd'
 occ = _get_occurrences(sample_text)
 tree = _generate_tree(occ)
+codes = tree.get_characters_codes()
 print(occ)
-print(tree.get_characters_codes())
+print(codes)
+print(_decode(_encode(sample_text, tree), tree))
