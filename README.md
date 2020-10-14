@@ -2,6 +2,12 @@
 
 ## Zajęcia
 
+### 14 października
+
+Na pierwszej lekcji omówimy zadania z [arkusza I części próbnej matury](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Przykladowe_arkusze/2015/informatka_PR/informatyka_PR_czI_A1.pdf).
+
+Na drugiej lekcji rozwiążecie pierwsze zadanie z [arkusza II części tej matury](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Przykladowe_arkusze/2015/informatka_PR/informatyka_PR_czII_A1.pdf). [Pliki do arkusza](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Przykladowe_arkusze/2015/informatka_PR/dane_czII.zip}.
+
 ### 9 października
 
 Kontynuujemy implementację kodowania Huffmana. Dotychczasowa implementacja.
