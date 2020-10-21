@@ -2,6 +2,12 @@
 
 ## Zajęcia
 
+### 21 października
+
+Zadanie 1 (Ciągi rekurencyjne) i 64 (Obrazki) ze [zbioru zadań CKE](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf).
+
+Do domu: zadanie 58.
+
 ### 14 października
 
 Na pierwszej lekcji omówimy zadania z [arkusza I części próbnej matury](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Przykladowe_arkusze/2015/informatka_PR/informatyka_PR_czI_A1.pdf).
