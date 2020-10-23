@@ -2,6 +2,79 @@
 
 ## Zajęcia
 
+### 21 października
+
+Zadanie 1 (Ciągi rekurencyjne) i 64 (Obrazki) ze [zbioru zadań CKE](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf).
+
+[Dane do zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/inf-pr-dane.zip).
+
+Do domu: zadanie 58.
+
+### 14 października
+
+Na pierwszej lekcji omówimy zadania z [arkusza I części próbnej matury](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Przykladowe_arkusze/2015/informatka_PR/informatyka_PR_czI_A1.pdf).
+
+Na drugiej lekcji rozwiążecie pierwsze zadanie z [arkusza II części tej matury](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Przykladowe_arkusze/2015/informatka_PR/informatyka_PR_czII_A1.pdf). [Pliki do arkusza](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Przykladowe_arkusze/2015/informatka_PR/dane_czII.zip).
+
+### 9 października
+
+Kontynuujemy implementację kodowania Huffmana. Dotychczasowa implementacja.
+
+```python
+def encode(text: str, table: Dict[str, str]) -> str:
+    """1 + 2 -> 3"""
+    output = []
+    for letter in text:
+        output.append(table[letter])
+    return ''.join(output)
+
+
+def decode(text: str, tree: Dict) -> str:
+    """3 + 4 -> 1"""
+    i = iter(text)
+    result = []
+    t = tree
+    while True:
+        if isinstance(t, str):
+            result.append(t)
+            t = tree
+        else:
+            bit = next(i, None)
+            if bit is None:
+                break
+            elif bit == "0":
+                t = t[0]
+            elif bit == "1":
+                t = t[1]
+    return "".join(result)
+
+
+def code_to_tree(code: Dict) -> dict:
+    tree = dict()
+
+
+    def str_to_tree_rec(value: str, key: str, drzewo: Dict):
+        if len(drzewo) is 1:
+            drzewo[value[0]] = key
+
+        if drzewo.get(value[0], False) is not None:
+            str_to_tree_rec(value[1:], key, drzewo[value[0]])
+        else:
+            drzewo[value[0]] = {}
+            str_to_tree_rec(value[1:], key, drzewo[value[0]])
+```
+
+Do zrobienia.
+
+* Komentarze
+* Testy
+* Dokończenie implementacji `code_to_tree`
+* Zaimplementowanie `tree_to_code`
+* Zaimplementowanie `generate_tree`
+* Wymyślenie sposobu zapisu/odczytu drzewa z kodowaniem
+* Projekt i implementacja funkcji `encode_to_file` (potrzebna biblioteka [bitstream](https://pypi.org/project/bitstream/))
+* Projekt i implementacja funkcji `decode_from_file` (znów przyda się [bitstream](https://pypi.org/project/bitstream/))
+
 ### 2 października
 
 Dzis trudniejszy temat: [kodowanie Huffmana](https://pl.wikipedia.org/wiki/Kodowanie_Huffmana).
