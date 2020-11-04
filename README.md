@@ -2,11 +2,13 @@
 
 ## Zajęcia
 
+## Arkusz kalkulacyjny
+
 ### 4 listopada
 
 Na początku proszę uważnie przerobić materiały ze strony [ucze-sie.pl](http://smurf.mimuw.edu.pl/uczesie/?q=arkusz).
 
-## Lista zadań
+### Lista zadań
 
 Dane do zadań można znaleźć w katalogu [dane_do_zadan/](https://github.com/anagorko/inf/tree/master/dane_do_zadan/).
 
@@ -18,7 +20,7 @@ Dane do zadań można znaleźć w katalogu [dane_do_zadan/](https://github.com/a
 * Biblioteka podręczników - [matura maj 2016, zad. 5](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2016/formula_od_2015/MIN-R2_1P-162.pdf)
 * Szkoła - maj 2010
 
-## Lista funkcji
+### Lista funkcji
 
 * `vlookup()`
 * `right()` , `left()` 
