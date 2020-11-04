@@ -12,12 +12,12 @@ Na początku proszę uważnie przerobić materiały ze strony [ucze-sie.pl](http
 
 Dane do zadań można znaleźć w katalogu [dane_do_zadan/](https://github.com/anagorko/inf/tree/master/dane_do_zadan/).
 
-* Liczba PI - [matura maj 2016, zad. 4](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2016/formula_od_2015/MIN-R2_1P-162.pdf)
-* Korek - informator maturalny, [zad. 19](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
+* Liczba PI - [matura maj 2016, zad. 4](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2016/formula_od_2015/MIN-R2_1P-162.pdf)
+* Korek - informator maturalny, [zad. 19](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
 * Demografia - maj 2015, zad. 5
-* Bruker - informator maturalny, [zad. 17](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
-* Telefony - informator maturalny, [zad. 18](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
-* Biblioteka podręczników - [matura maj 2016, zad. 5](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2016/formula_od_2015/MIN-R2_1P-162.pdf)
+* Bruker - informator maturalny, [zad. 17](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
+* Telefony - informator maturalny, [zad. 18](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
+* Biblioteka podręczników - [matura maj 2016, zad. 5](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2016/formula_od_2015/MIN-R2_1P-162.pdf)
 * Szkoła - maj 2010
 
 ### Lista funkcji
