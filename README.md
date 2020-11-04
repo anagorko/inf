@@ -23,7 +23,7 @@ Dane do zadań można znaleźć w katalogu [dane_do_zadan/](https://github.com/a
 * `countif()` lub `countifs()` zlicza ilosc elementow pod okreslonymi warunkami. druga funkcja pozwala podawac kilka warunków.
 * `and()` , `or()` funkcja koniunkcji oraz alternatywy
 * `mod()` funkcja modulo przyjmuje jako argumenty liczbę a i b, zwraca a mod b. 
-* `$` , `&` - operator konkatenacji (sklejenia) KB
+* `$` , `&` - operator konkatenacji (sklejenia)
 * `sum()`
 * `if()` 
 * `mid()`
