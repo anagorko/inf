@@ -2,6 +2,52 @@
 
 ## Zajęcia
 
+### 4 listopada
+
+Na początku proszę uważnie przerobić materiały ze strony [ucze-sie.pl](http://smurf.mimuw.edu.pl/uczesie/?q=arkusz).
+
+## Lista zadań
+
+Dane do zadań można znaleźć w katalogu [dane_do_zadan/](https://github.com/anagorko/inf/tree/master/dane_do_zadan/).
+
+* Liczba PI - [matura maj 2016, zad. 4](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2016/formula_od_2015/MIN-R2_1P-162.pdf)
+* Korek - informator maturalny, [zad. 19](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
+* Demografia - maj 2015, zad. 5
+* Bruker - informator maturalny, [zad. 17](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
+* Telefony - informator maturalny, [zad. 18](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf)
+* Biblioteka podręczników - [matura maj 2016, zad. 5](https://www.cke.edu.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2016/formula_od_2015/MIN-R2_1P-162.pdf)
+* Szkoła - maj 2010
+
+## Lista funkcji
+
+* `vlookup()`
+* `right()` , `left()` 
+* `countif()` lub `countifs()` zlicza ilosc elementow pod okreslonymi warunkami. druga funkcja pozwala podawac kilka warunków.
+* `and()` , `or()` funkcja koniunkcji oraz alternatywy
+* `mod()` funkcja modulo przyjmuje jako argumenty liczbę a i b, zwraca a mod b. 
+* `$` , `&` - operator konkatenacji (sklejenia) KB
+* `sum()`
+* `if()` 
+* `mid()`
+* `value()`
+* `iferror()`
+* `floor()` - zwraca wartość zaokrągloną do dołu, z precyzją (drugi argument) np. `=floor(2,3;3)` zwraca `0`
+* `ceiling()` - zaokrąglanie do góry, z precyzją (drugi argument) np. `=ceiling(2,3;2)` zwraca `4`
+* `<>` - symbol nierówność w EXCELu, (nie `!=`)
+* `month()`, `day()`, `year()` - fukcje zwracają wartość liczbową, przedstawiającą numer miesiaca/dnia/roku, w zależności od podanej wejściowej warotść liczbowej
+* `weekday(number,[type])` - funkcja zwraca dzień w określony w drugim argumeńcie sposób:
+    * 1 or omitted - Numbers 1 (Sunday) through 7 (Saturday). Behaves like previous versions of Microsoft Excel.
+    * 2 - Numbers 1 (Monday) through 7 (Sunday).
+    * 3 - Numbers 0 (Monday) through 6 (Sunday).
+    * 11 - Numbers 1 (Monday) through 7 (Sunday).
+    * 12 - Numbers 1 (Tuesday) through 7 (Monday).
+    * 13 - Numbers 1 (Wednesday) through 7 (Tuesday).
+    * 14 - Numbers 1 (Thursday) through 7 (Wednesday).
+    * 15 - Numbers 1 (Friday) through 7 (Thursday).
+    * 16 - Numbers 1 (Saturday) through 7 (Friday).
+    * 17 - Numbers 1 (Sunday) through 7 (Saturday).
+* `text()`- rozbudowana funkcja, do konwersji różnych wartości w liczby, w tekst: https://support.office.com/en-us/article/TEXT-function-20d5ac4d-7b94-49fd-bb38-93d29371225c
+
 ### 28 października
 
 Zadania 65, 67.
