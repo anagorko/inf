@@ -4,6 +4,12 @@
 
 ## Arkusz kalkulacyjny
 
+### 13 listopada
+
+Najpierw dwa przykłady, potem zadanie [arkusze/3_kurs.ods](arkusze/3_kurs.ods).
+
+Do domu: [arkusze/4_domowe_kolokwium.ods](arkusze/4_domowe_kolokwium.ods).
+
 ### 4 listopada
 
 Na początku proszę uważnie przerobić materiały ze strony [ucze-sie.pl](http://smurf.mimuw.edu.pl/uczesie/?q=arkusz).
