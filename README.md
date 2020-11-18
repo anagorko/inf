@@ -4,6 +4,12 @@
 
 ## Arkusz kalkulacyjny
 
+### 18 listopada
+
+Na pierwszej lekcji proszę rozwiązać zadanie [arkusze/5_ceny.ods](arkusze/5_ceny.ods). W tym czasie porozmawiamy indywidualnie o ocenach z wcześniejszych zadań.
+
+Na drugiej lekcji zrobimy zadanie 83 ze [zbioru zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf) - z użyciem wyłącznie arkusza.
+
 ### 13 listopada
 
 Najpierw dwa przykłady, potem zadanie [arkusze/3_kurs.ods](arkusze/3_kurs.ods).
