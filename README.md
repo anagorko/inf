@@ -10,6 +10,8 @@ Na pierwszej lekcji proszę rozwiązać zadanie [arkusze/5_ceny.ods](arkusze/5_c
 
 Na drugiej lekcji zrobimy zadanie 83 ze [zbioru zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf) - z użyciem wyłącznie arkusza.
 
+Zadanie dodatkowe: [zadanie 5 z matury](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2019/formula_od_2015/informatyka/MIN-R2_1P-192.pdf).
+
 ### 13 listopada
 
 Najpierw dwa przykłady, potem zadanie [arkusze/3_kurs.ods](arkusze/3_kurs.ods).
