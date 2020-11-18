@@ -1,5 +1,9 @@
 # Zajęcia z informatyki 2020-21
 
+## Przestrogi i morały
+
+* Sprawdź, czy liczby do arkusza zaimportowane są jako liczby
+
 ## Zajęcia
 
 ## Arkusz kalkulacyjny
