@@ -41,8 +41,6 @@ Dane do zadań można znaleźć w katalogu [dane_do_zadan/](https://github.com/a
 
 ### Lista funkcji
 
-
-* `licz.warunki()`, `countifs` 
 * `vlookup()`
 * `right()` , `left()` 
 * `countif()` lub `countifs()` zlicza ilosc elementow pod okreslonymi warunkami. druga funkcja pozwala podawac kilka warunków.
