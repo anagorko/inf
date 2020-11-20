@@ -10,7 +10,7 @@
 
 ### 20 listopada
 
-Proszę rozwiązać **za pomocą arkusza kalkulacyjnego** zadanie "Telefony" - informator maturalny, [zad. 18](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf). Czas na rozwiązanie: 40 minut, rozwiązanie proszę umieścić w zadanym czasie w repozytorium.
+Proszę rozwiązać **za pomocą arkusza kalkulacyjnego** zadanie "Telefony" - informator maturalny, [zad. 18](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf) (str. 47). Czas na rozwiązanie: 40 minut, rozwiązanie proszę umieścić w zadanym czasie w repozytorium.
 [Dane do zadania](https://raw.githubusercontent.com/anagorko/inf/master/dane_do_zadan/telefony.txt).
 
 ### 18 listopada
