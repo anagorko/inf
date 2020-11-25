@@ -8,6 +8,14 @@
 
 ## Arkusz kalkulacyjny
 
+### 25 listopada
+
+Zaczniemy od omówienia zdania "Telefony".
+
+Następnie zrobimy wspólnie zadanie "Wirujący dysk i mrówka" z [próbnej matury 2015](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/egzamin_probny_2015/informatyka_pr/Czesc_2/A1Informatyka_PR_cz%C4%99%C5%9B%C4%87_II.pdf). (**W arkuszu!**)
+
+Następnie samodzielnie rozwiążencie (**w arkuszu!**) zadanie "Zawody sportowe" z [tej samej próbnej matury (2015)](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/egzamin_probny_2015/informatyka_pr/Czesc_2/A1Informatyka_PR_cz%C4%99%C5%9B%C4%87_II.pdf).
+
 ### 20 listopada
 
 Proszę rozwiązać **za pomocą arkusza kalkulacyjnego** zadanie "Telefony" - informator maturalny, [zad. 18](https://www.cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Informatory/2015/Informatyka.pdf) (str. 47). Czas na rozwiązanie: 40 minut, rozwiązanie proszę umieścić w zadanym czasie w repozytorium.
