@@ -14,7 +14,7 @@ Zaczniemy od omówienia zdania "Telefony".
 
 Następnie zrobimy wspólnie zadanie "Wirujący dysk i mrówka" z [próbnej matury 2015](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/egzamin_probny_2015/informatyka_pr/Czesc_2/A1Informatyka_PR_cz%C4%99%C5%9B%C4%87_II.pdf). (**W arkuszu!**)
 
-Następnie samodzielnie rozwiążencie (**w arkuszu!**) zadanie "Zawody sportowe" z [tej samej próbnej matury (2015)](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/egzamin_probny_2015/informatyka_pr/Czesc_2/A1Informatyka_PR_cz%C4%99%C5%9B%C4%87_II.pdf).
+Następnie samodzielnie rozwiążencie (**w arkuszu!**) zadanie "Zawody sportowe" z [tej samej próbnej matury (2015)](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/egzamin_probny_2015/informatyka_pr/Czesc_2/A1Informatyka_PR_cz%C4%99%C5%9B%C4%87_II.pdf). [Dane do zadania](https://raw.githubusercontent.com/anagorko/inf/master/dane_do_zadan/probna_matura_2015/dziennik.txt).
 
 ### 20 listopada
 
