@@ -28,6 +28,21 @@ vector<int> to_digits_reversed(int number)
     return result;
 }
 
+int digits_to_num_reversed(vector<int> digits)
+{
+    int result = 0;
+    int c = 1;
+
+    for (size_t i = 0; i < digits.size(); i++)
+    {
+        result += digits[i] * c;
+
+        c *= 10;
+    }
+
+    return result;
+}
+
 vector<int> to_bin_reversed(int dec)
 {
     vector<int> result;
@@ -54,6 +69,70 @@ bool is_palindrome(vector<int> v)
     return true;
 }
 
+vector<vector<int>> generate_palindroms_in_range_from_one_to_milion_in_decimal_system()
+{
+    vector<vector<int>> result;
+
+    for (size_t i = 0; i <= 9; i++)
+    {
+        for (size_t j = 0; j <= 9; j++)
+        {
+            for (size_t k = 0; k <= 9; k++)
+            {
+                result.push_back(vector<int>());
+                if (i != 0)
+                {
+                    result[result.size() - 1].push_back(i);
+                }               
+                if (i != 0 || j != 0)
+                {
+                    result[result.size() - 1].push_back(j);
+                }
+                if (i != 0 || j != 0 || k != 0)
+                {
+                    result[result.size() - 1].push_back(k);
+                }
+                if (i != 0 || j != 0 || k != 0)
+                {
+                    result[result.size() - 1].push_back(k);
+                }
+                if (i != 0 || j != 0)
+                {
+                    result[result.size() - 1].push_back(j);
+                }
+                if (i != 0)
+                {
+                    result[result.size() - 1].push_back(i);
+                }
+
+                result.push_back(vector<int>());
+                if (i != 0)
+                {
+                    result[result.size() - 1].push_back(i);
+                }
+                if (i != 0 || j != 0)
+                {
+                    result[result.size() - 1].push_back(j);
+                }
+                if (i != 0 || j != 0 || k != 0)
+                {
+                    result[result.size() - 1].push_back(k);
+                }
+                if (i != 0 || j != 0)
+                {
+                    result[result.size() - 1].push_back(j);
+                }
+                if (i != 0)
+                {
+                    result[result.size() - 1].push_back(i);
+                }
+            }
+        }
+    }
+
+    return result;
+}
+
 void test()
 {
     //to_digits_reversed test
@@ -63,6 +142,8 @@ void test()
         cout << d[i]; // 945321
     }
     cout << endl << endl;
+
+    cout << digits_to_num_reversed(d) << endl << endl; // 123549
 
     //to_bin_reversed test
     d = to_bin_reversed(35);
@@ -82,14 +163,15 @@ void test()
 int main()
 {
     int sum = 0;
-    for (size_t i = 1; i < 1000000; i++)
+    vector<vector<int>> dec_palindroms = generate_palindroms_in_range_from_one_to_milion_in_decimal_system();
+    for (auto it : dec_palindroms)
     {
-        if (is_palindrome(to_digits_reversed(i)) && is_palindrome(to_bin_reversed(i)))
+        if (is_palindrome(to_bin_reversed(digits_to_num_reversed(it))))
         {
-            sum += i;
+            sum += digits_to_num_reversed(it);
         }
     }
     cout << sum << endl;
-
+    
     return 0;
 }
