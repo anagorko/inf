@@ -6,6 +6,12 @@
 
 ## Zajęcia
 
+## Zadania maturalne
+
+### 9 grudnia
+
+**Do domu**: Proszę rozwiązać zadanie 10 "Dzielenie wielomianu" ze [zbioru zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf).
+
 ## Arkusz kalkulacyjny
 
 ### 25 listopada
