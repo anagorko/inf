@@ -1,8 +1,9 @@
-﻿//Piotr Trzaskowski Zadanie Szyfr - Meet in the middle niekoniecznie optymalna pamięciowo
+//Piotr Trzaskowski Zadanie Szyfr - Meet in the middle optymalna pamięciowo
 #include<iostream>
 #include<algorithm>
 #include<vector>
-#include<queue>
+#include<stack>
+#include<tuple>
 #include<string>
 
 using namespace std;
@@ -13,8 +14,9 @@ int n;
 int S;
 
 int a[MAXN];
+
 vector<pair<int, unsigned long long>> half[2];
-queue<string> Q;
+stack<tuple<int, int, unsigned long long>> Q;
 
 int generateHalf(int half_number)
 {
@@ -22,25 +24,21 @@ int generateHalf(int half_number)
 	int end = (n - 1) * half_number + (n / 2 - 1) * (half_number - 1) * -1;
 
 	int len = end - begin + 1;
-	Q.push("0");
-	Q.push("1");
+	Q.push(make_tuple(1, 0, 0));
+	Q.push(make_tuple(1, a[begin], 1));
 	while (!Q.empty())
 	{
-		string bin = Q.front();
+		int l, d;
+		unsigned long long bin;
+		tie(l, d, bin) = Q.top();
 		Q.pop();
-		if (bin.size() < len)
+		if (l < len)
 		{
-			Q.push(bin + '0');
-			Q.push(bin + '1');
+			Q.push(make_tuple(l + 1, d, bin * 10));
+			Q.push(make_tuple(l + 1, d + a[begin + l], bin * 10 + 1));
 		}
 		else
-		{
-			int suma = 0;
-			for (int i = begin; i <= end; i++)
-				suma += (int(bin[i - begin]) - int('0')) * a[i];
-
-			half[half_number].push_back(make_pair(suma, stoull(bin)));
-		}
+			half[half_number].push_back(make_pair(d, bin));
 	}
 	return len;
 }
@@ -53,6 +51,7 @@ int main()
 	for (int i = 0; i < n; i++)
 		cin >> a[i];
 	cin >> S;
+
 	int len1 = generateHalf(0);
 	int len2 = generateHalf(1);
 
