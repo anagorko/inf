@@ -1,5 +1,68 @@
 # Zajęcia z informatyki 2020-21
 
+## Zbiór zadań CKE
+
+[Zbiór zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf).
+[Dane do zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/inf-pr-dane.zip).
+
+| # | Nazwa | Paweł | Piotr N-J | Krzysiek | Piotr T |
+| :-: | :----------: | :----------: |  :---: | :---: | :---: |
+| 58 | Systemy liczbowe | | | | |
+| 59 | Ciekawe liczby | | | | |
+| 60 | Dzielniki | | | | |
+| 61 | Ciągi arytmetyczne | | | | |
+| 62 | Liczby ósemkowe | | | | |
+| 63 | Ciągi zerojedynkowe | | | | |
+| 64 | Obrazki | | | | |
+| 65 | Ułamki | | | | |
+| 66 | Trójki liczb | | | | |
+| 67 | Binarny fraktal Fibonacciego | | | | |
+| 68 | Napisy — anagramy | | | | |
+| 69 | Geny | | | | |
+| 70 | Zasłona | | | | |
+| 71 | Funkcja | | | | |
+| 72 | Podobne napisy | |  | | |
+| 73 | Statystyki tekstu | | | | |
+| 74 | Hasła | | | | |
+| 75 | Szyfr afiniczny | | | | |
+| 76 | Szyfr | | | | |
+| 77 | Szyfr Vigenère’a | | | | |
+| 78 | Podpis elektroniczny | | | | |
+| 79 | Okręgi | | | | |
+| 80 | Trójkąty | | | | |
+| 81 | Czworokąty | | | | |
+| 82 | Piraci | | | | |
+| 83 | Wilki i zające | | | | |
+| 84 | LPG | | | | |
+| 85 | Oscypki | | | | |
+| 86 | Wybory | | | | |
+| 87 | U-977 | | | | |
+| 88 | Sprzedaż choinek | | | | |
+| 89 | Punkty rekrutacyjne | | | | |
+| 90 | Akademiki | | | | |
+| 91 | Numery PESEL | | | | |
+| 92 | Olimpiady | | | | |
+| 93 | Podróże | | | | | 
+| 94 | Centyle | | | | |
+| 95 | Giełda Papierów Wartościowych | | | | |
+| 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | | |
+| 97 | Stopa bezrobocia | | | |
+| 98 | Dziennik ocen | | | | |
+| 99 | Bezpieczeństwo w szkole | | | | |
+| 100 | E-learning | | | | |
+| 101 | Karta MaturaSport | | | | |
+| 102 | Portal społecznościowy | | | | |
+| 103 | Rentgenodiagnostyka | | | | |
+| 104 | Leki refundowane | | | | |
+| 105 | Rośliny ogrodowe | | | | |
+| 106 | Obserwacje ptaków || | | | 
+| 107 | Loty pasażerskie || | | |
+| 108 | Stacje benzynowe || | | |
+| 109 | Urządzenia budowlane || | | |
+| 110 | Miejscowości w Polsce || | | | 
+| 111 | Malware | | | | | 
+| 112 | Kod EAN | | | | |
+
 ## Przestrogi i morały
 
 * Sprawdź, czy liczby do arkusza zaimportowane są jako liczby
