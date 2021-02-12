@@ -6,6 +6,10 @@
 
 [Dane do zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/inf-pr-dane.zip).
 
+### Część "Algorytmy w praktyce"
+
+Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozwiazania zadania.
+
 | # | Nazwa | Paweł | Piotr N-J | Krzysiek | Piotr T |
 | :-: | :----------: | :----------: |  :---: | :---: | :---: |
 | 58 | Systemy liczbowe | | | | |
