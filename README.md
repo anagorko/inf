@@ -12,7 +12,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 
 | # | Nazwa | Paweł | Piotr N-J | Krzysiek | Piotr T |
 | :-: | :----------: | :----------: |  :---: | :---: | :---: |
-| 58 | Systemy liczbowe | 12.02 | | | |
+| 58 | Systemy liczbowe | 13.02 | | | |
 | 59 | Ciekawe liczby | | | | |
 | 60 | Dzielniki | | | | |
 | 61 | Ciągi arytmetyczne | | | | |
