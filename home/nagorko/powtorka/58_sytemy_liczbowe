@@ -1,0 +1,120 @@
+def from_dec_to_x(i, x):
+    first = 1
+    if i[0] == "-":
+        first = -1
+        i = i[1:]
+    result = ""
+    i = int(i)
+    while i > 0:
+        result += str(i % x)
+        i = i // x
+    return first*int(result[::-1])
+
+
+def from_x_to_dec(i, x):
+    first = 1
+    if i[0] == "-":
+        i = i[1:]
+        first = -1
+    power = 1
+    result = 0
+    for j in i[::-1]:
+        result += int(j)*power
+        power = power*x
+    return first*result
+
+
+"________czytanie danych___________"
+f1 = open("dane_systemy1.txt")
+f2 = open("dane_systemy2.txt")
+f3 = open("dane_systemy3.txt")
+
+dane1 = []
+
+for i in f1:
+    dane1.append(i.split(" "))
+
+for i in dane1:
+    i[1] = i[1].rstrip("\n")
+
+dane2 = []
+
+for i in f2:
+    dane2.append(i.split(" "))
+
+for i in dane2:
+    i[1] = i[1].rstrip("\n")
+
+dane3 = []
+
+for i in f3:
+    dane3.append(i.split(" "))
+
+for i in dane3:
+    i[1] = i[1].rstrip("\n")
+
+
+print("________58.1___________")
+minimal = 1000
+for i in dane1:
+    if from_x_to_dec(i[1], 2) < minimal:
+        minimal = int(from_x_to_dec(i[1], 2))
+
+print(minimal)
+print(from_dec_to_x(str(minimal), 2))
+minimal = 1000
+for i in dane2:
+    if from_x_to_dec(i[1], 4) < minimal:
+        minimal = int(from_x_to_dec(i[1], 4))
+
+print(minimal)
+print(from_dec_to_x(str(minimal), 2))
+minimal = 1000
+for i in dane3:
+    if from_x_to_dec(i[1], 8) < minimal:
+        minimal = int(from_x_to_dec(i[1], 8))
+
+print(minimal)
+print(from_dec_to_x(str(minimal), 2))
+print("________58.2___________")
+timedata = []
+for i in range(len(dane1)):
+    timedata.append([from_x_to_dec(dane1[i][0], 2), from_x_to_dec(dane2[i][0], 4), from_x_to_dec(dane3[i][0], 8)])
+
+counter = 0
+time = 12
+# print(timedata[0])
+for i in timedata:
+    if i[0] != time and i[1] != time and i[2] != time:
+        # print(i, time)
+        counter += 1
+    time += 24
+
+print(counter)
+print("________58.3___________")
+rekord = [-100, -100, -100]
+counter = 0
+tempdata = []
+for i in range(len(dane1)):
+    tempdata.append([from_x_to_dec(dane1[i][1], 2), from_x_to_dec(dane2[i][1], 4), from_x_to_dec(dane3[i][1], 8)])
+for i in tempdata:
+    rekordcopy = [rekord[0], rekord[1], rekord[2]]
+    if rekord[0] < i[0]:
+        rekord[0] = i[0]
+    if rekord[1] < i[1]:
+        rekord[1] = i[1]
+    if rekord[2] < i[2]:
+        rekord[2] = i[2]
+    if rekord != rekordcopy:
+        counter += 1
+
+print(counter)
+print("________58.4___________")
+skok = 0
+for i in range(len(tempdata)):
+    for j in range(i+1, len(tempdata)):
+        tempskok = round((tempdata[i][0] - tempdata[j][0]) ** 2 / (j - i) + .5)
+        if skok < tempskok:
+            skok = tempskok
+
+print(skok)
