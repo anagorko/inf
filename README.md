@@ -17,9 +17,9 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | # | Nazwa | Paweł | Piotr N-J | Krzysiek | Piotr T |
 | :-: | :----------: | :----------: |  :---: | :---: | :---: |
 | 58 | Systemy liczbowe | 13.02 | | | |
-| 59 | Ciekawe liczby | | | | |
-| 60 | Dzielniki | | | | |
-| 61 | Ciągi arytmetyczne | | | | |
+| 59 | Ciekawe liczby | 14.02| | | |
+| 60 | Dzielniki | 17.02| | | |
+| 61 | Ciągi arytmetyczne |61.1 | | | |
 | 62 | Liczby ósemkowe | | | | |
 | 63 | Ciągi zerojedynkowe | | | | |
 | 64 | Obrazki | | | | |
