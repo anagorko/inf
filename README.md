@@ -1,5 +1,9 @@
 # Zajęcia z informatyki 2020-21
 
+## Teoria
+
+- **19.02**: [Bity, bajty, słowa](https://hackmd.io/@amn/HysJbT2ZO)
+
 ## Zbiór zadań CKE
 
 [Zbiór zadań](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf).
