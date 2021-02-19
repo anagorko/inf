@@ -16,7 +16,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 
 | # | Nazwa | Paweł | Piotr N-J | Krzysiek | Piotr T |
 | :-: | :----------: | :----------: |  :---: | :---: | :---: |
-| 58 | Systemy liczbowe | 13.02 | | | |
+| 58 | Systemy liczbowe | 13.02 | ppkty 1,2 | | |
 | 59 | Ciekawe liczby | 14.02| | | |
 | 60 | Dzielniki | 17.02| | | |
 | 61 | Ciągi arytmetyczne |61.1 | | | |
