@@ -19,7 +19,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 58 | Systemy liczbowe | 13.02 | ppkty 1,2 | | |
 | 59 | Ciekawe liczby | 14.02| | | |
 | 60 | Dzielniki | 17.02| | | |
-| 61 | Ciągi arytmetyczne |61.1 | | | |
+| 61 | Ciągi arytmetyczne | 20.02 | | | |
 | 62 | Liczby ósemkowe | | | | |
 | 63 | Ciągi zerojedynkowe | | | | |
 | 64 | Obrazki | | | | |
