@@ -20,7 +20,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 59 | Ciekawe liczby | 14.02| | | |
 | 60 | Dzielniki | 17.02| | | |
 | 61 | Ciągi arytmetyczne | 20.02 | | | |
-| 62 | Liczby ósemkowe | | | | |
+| 62 | Liczby ósemkowe | 20.2 | | | |
 | 63 | Ciągi zerojedynkowe | | | | |
 | 64 | Obrazki | | | | |
 | 65 | Ułamki | | | | |
