@@ -21,7 +21,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 60 | Dzielniki | 17.02| | | |
 | 61 | Ciągi arytmetyczne | 20.02 | | | |
 | 62 | Liczby ósemkowe | 20.2 | | | |
-| 63 | Ciągi zerojedynkowe | | | | |
+| 63 | Ciągi zerojedynkowe | 23.02 | | | |
 | 64 | Obrazki | | | | |
 | 65 | Ułamki | | | | |
 | 66 | Trójki liczb | | | | |
