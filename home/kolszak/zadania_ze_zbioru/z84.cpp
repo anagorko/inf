@@ -26,7 +26,7 @@ void z4()
 	//bez lpg:
 	for (size_t i = 1; i <= 365; i++)
 	{
-		float spalone_pb95 = 9.0 * km[i] / 100;
+		float spalone_pb95 = 6.0 * km[i] / 100;
 		koszt_bezlpg += round(spalone_pb95 * 4.99 * 100) / 100;
 	}
 
@@ -41,15 +41,15 @@ void z4()
 
 		if (lpg > 15)
 		{
-			spalone_lpg = 6.0 * km[i] / 100;
+			spalone_lpg = round(9.0 * km[i]) / 100;
 			koszt_zlpg += round(spalone_lpg * 2.29 * 100) / 100;
 		}
 		else
 		{
-			spalone_lpg = 0.5 * 6.0 * km[i] / 100;
+			spalone_lpg = round(0.5 * 9.0 * km[i]) / 100;
 			koszt_zlpg += round(spalone_lpg * 2.29 * 100) / 100;
 
-			spalone_pb95 = 0.5 * 9.0 * km[i] / 100;
+			spalone_pb95 = round(0.5 * 6.0 * km[i]) / 100;
 			koszt_zlpg += round(spalone_pb95 * 4.99 * 100) / 100;
 		}
 
@@ -110,34 +110,33 @@ int main()
 	int tankowania_pb95 = 0;
 	int tankowania_lpg = 0;
 
-	float pb95 = 45; // spalanie = 9l / 100km
-	float lpg = 30; // spalanie = 6l / 100km
+	float pb95 = 45; // spalanie = 6l / 100km
+	float lpg = 30; // spalanie = 9l / 100km
 
 	int dzien_odp_z2 = 0;
 
 	for (size_t i = 1; i <= 365; i++)
 	{
+		if (dzien_odp_z2 == 0 && lpg < 5.25) dzien_odp_z2 = i;
 		lpg_przed_podroza[i] = lpg;
 
 		float spalone_pb95 = 0, spalone_lpg = 0;
 
 		if (lpg > 15)
 		{
-			spalone_lpg = 6.0 * km[i] / 100;
+			spalone_lpg = round(9.0 * km[i]) / 100;
 			dni_lpg_only++;
 		}
 		else
 		{
-			spalone_lpg = 0.5 * 6.0 * km[i] / 100;
-			spalone_pb95 = 0.5 * 9.0 * km[i] / 100;
+			spalone_lpg = round(0.5 * 9.0 * km[i]) / 100;
+			spalone_pb95 = round(0.5 * 6.0 * km[i]) / 100;
 		}
 
 		pb95 -= spalone_pb95;
 		lpg -= spalone_lpg;
 
 		lpg_po_podrozy[i] = lpg;
-
-		if (dzien_odp_z2 == 0 && lpg < 5.25) dzien_odp_z2 = i;
 
 		if (i % 7 == 2) // czwartek
 		{
