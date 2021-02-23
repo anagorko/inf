@@ -41,8 +41,8 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 80 | Trójkąty | | | | |
 | 81 | Czworokąty | | | | |
 | 82 | Piraci | | | 23.02 | |
-| 83 | Wilki i zające | | | 23.02 | |
-| 84 | LPG | | | | |
+| 83 | Wilki i zające | | | | |
+| 84 | LPG | | | 23.02 | |
 | 85 | Oscypki | | | | |
 | 86 | Wybory | | | | |
 | 87 | U-977 | | | | |
