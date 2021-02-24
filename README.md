@@ -43,7 +43,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 82 | Piraci | | | 23.02 | |
 | 83 | Wilki i zające | | | | |
 | 84 | LPG | | | 23.02 | |
-| 85 | Oscypki | | | | |
+| 85 | Oscypki | | | 24.02 | |
 | 86 | Wybory | | | | |
 | 87 | U-977 | | | | |
 | 88 | Sprzedaż choinek | | | | |
