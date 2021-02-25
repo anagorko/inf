@@ -40,7 +40,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 79 | Okręgi | | | | |
 | 80 | Trójkąty | | | | |
 | 81 | Czworokąty | | | | |
-| 82 | Piraci | | | 23.02 | |
+| 82 | Piraci | | 25.02 | 23.02 | |
 | 83 | Wilki i zające | | | | |
 | 84 | LPG | | | 23.02 | |
 | 85 | Oscypki | | | 24.02 | |
