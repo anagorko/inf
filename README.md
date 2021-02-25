@@ -44,7 +44,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 83 | Wilki i zające | | | | |
 | 84 | LPG | | | 23.02 | |
 | 85 | Oscypki | | | 24.02 | |
-| 86 | Wybory | | | | |
+| 86 | Wybory | | | 25.02 | |
 | 87 | U-977 | | | | |
 | 88 | Sprzedaż choinek | | | | |
 | 89 | Punkty rekrutacyjne | | | | |
