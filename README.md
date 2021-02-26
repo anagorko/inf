@@ -19,7 +19,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 58 | Systemy liczbowe | 13.02 | 22.02 | | |
 | 59 | Ciekawe liczby | 14.02| 24.02 | | |
 | 60 | Dzielniki | 17.02| 26.02 | | |
-| 61 | Ciągi arytmetyczne | 20.02 | | | |
+| 61 | Ciągi arytmetyczne | 20.02 | podpunkt 1 | | |
 | 62 | Liczby ósemkowe | 20.2 | | | |
 | 63 | Ciągi zerojedynkowe | 23.02 | | | |
 | 64 | Obrazki | | | | |
