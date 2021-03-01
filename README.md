@@ -56,7 +56,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 95 | Giełda Papierów Wartościowych | | | | |
 | 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | | |
 | 97 | Stopa bezrobocia | | | |
-| 98 | Dziennik ocen | | | | |
+| 98 | Dziennik ocen | | | 1.03 | |
 | 99 | Bezpieczeństwo w szkole | | | | |
 | 100 | E-learning | | | | |
 | 101 | Karta MaturaSport | | | | |
