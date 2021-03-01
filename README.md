@@ -42,7 +42,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 81 | Czworokąty | | | | |
 | 82 | Piraci | | 25.02 | 23.02 | 25.02 |
 | 83 | Wilki i zające | | 27.02 | | |
-| 84 | LPG | | ppkt 1 | 23.02 | |
+| 84 | LPG | | 01.03 | 23.02 | |
 | 85 | Oscypki | | | 24.02 | |
 | 86 | Wybory | | | | |
 | 87 | U-977 | | | 25.02 | |
