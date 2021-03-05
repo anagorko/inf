@@ -48,7 +48,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 87 | U-977 | | | 25.02 | |
 | 88 | Sprzedaż choinek | | | | |
 | 89 | Punkty rekrutacyjne | | | 04.03 | |
-| 90 | Akademiki | | | | |
+| 90 | Akademiki | | | 05.03 | |
 | 91 | Numery PESEL | | | | |
 | 92 | Olimpiady | | | | |
 | 93 | Podróże | | | | | 
