@@ -24,7 +24,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 63 | Ciągi zerojedynkowe | 23.02 | 28.02 | | |
 | 64 | Obrazki | 2.03 | | | |
 | 65 | Ułamki | 6.03 | | | |
-| 66 | Trójki liczb | | | | |
+| 66 | Trójki liczb |6.03 | | | |
 | 67 | Binarny fraktal Fibonacciego | | | | |
 | 68 | Napisy — anagramy | | | | |
 | 69 | Geny | | | | |
