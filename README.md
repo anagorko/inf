@@ -23,7 +23,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 62 | Liczby ósemkowe | 20.02 | 28.02 | | |
 | 63 | Ciągi zerojedynkowe | 23.02 | 28.02 | | |
 | 64 | Obrazki | 2.03 | | | |
-| 65 | Ułamki | | | | |
+| 65 | Ułamki | 6.03 | | | |
 | 66 | Trójki liczb | | | | |
 | 67 | Binarny fraktal Fibonacciego | | | | |
 | 68 | Napisy — anagramy | | | | |
