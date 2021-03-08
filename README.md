@@ -47,11 +47,11 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 86 | Wybory | | | | |
 | 87 | U-977 | | | 25.02 | |
 | 88 | Sprzedaż choinek | | | | |
-| 89 | Punkty rekrutacyjne | | | 04.03 | |
-| 90 | Akademiki | | | 05.03 | |
-| 91 | Numery PESEL | | | 08.03 | |
-| 92 | Olimpiady | | | 08.03 | |
-| 93 | Podróże | | | 08.03 | | 
+| 89 | Punkty rekrutacyjne | | | 04.03 | 08.03 |
+| 90 | Akademiki | | | 05.03 | 08.03 |
+| 91 | Numery PESEL | | | 08.03 | 08.03 |
+| 92 | Olimpiady | | | 08.03 | 08.03 |
+| 93 | Podróże | | | 08.03 | 08.03 | 
 | 94 | Centyle | | | 08.03 | |
 | 95 | Giełda Papierów Wartościowych | | | | |
 | 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | | |
