@@ -27,7 +27,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 66 | Trójki liczb |6.03 | | | |
 | 67 | Binarny fraktal Fibonacciego | | | | |
 | 68 | Napisy — anagramy | 8.03 | | | |
-| 69 | Geny | | | | |
+| 69 | Geny | 8.03 | | | |
 | 70 | Zasłona | | | | |
 | 71 | Funkcja | | | | |
 | 72 | Podobne napisy | |  | | |
