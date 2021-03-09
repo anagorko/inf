@@ -41,7 +41,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 80 | Trójkąty | | | | |
 | 81 | Czworokąty | | | | |
 | 82 | Piraci | 8.03 | 25.02 | 23.02 | 25.02 |
-| 83 | Wilki i zające | | 27.02 | | 01.03 |
+| 83 | Wilki i zające | 9.03 | 27.02 | | 01.03 |
 | 84 | LPG | | 01.03 | 23.02 | 05.03 |
 | 85 | Oscypki | | | 24.02 | 05.03 |
 | 86 | Wybory | | | | |
