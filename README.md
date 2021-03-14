@@ -25,7 +25,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 64 | Obrazki | 2.03 | ppkty 1, 2, 3 | | |
 | 65 | Ułamki | 6.03 | 10.03 | | |
 | 66 | Trójki liczb |6.03 | 10.03 | | |
-| 67 | Binarny fraktal Fibonacciego | | | | |
+| 67 | Binarny fraktal Fibonacciego | | 14.03 | | |
 | 68 | Napisy — anagramy | 8.03 | | | |
 | 69 | Geny | 8.03 | | | |
 | 70 | Zasłona | | | | |
