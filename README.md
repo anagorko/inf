@@ -53,8 +53,8 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 92 | Olimpiady | | | 08.03 | 08.03 |
 | 93 | Podróże | | | 08.03 | 08.03 | 
 | 94 | Centyle | | | 08.03 | |
-| 95 | Giełda Papierów Wartościowych | | | | |
-| 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | | |
+| 95 | Giełda Papierów Wartościowych | | | 15.03 | |
+| 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | 15.03 | |
 | 97 | Stopa bezrobocia | | | |
 | 98 | Dziennik ocen | | | 1.03 | |
 | 99 | Bezpieczeństwo w szkole | | | | |
