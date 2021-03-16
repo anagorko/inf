@@ -28,7 +28,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 67 | Binarny fraktal Fibonacciego | | 14.03 | | |
 | 68 | Napisy — anagramy | 8.03 | 15.03 | | |
 | 69 | Geny | 8.03 | 15.03 | | |
-| 70 | Zasłona | | | | |
+| 70 | Zasłona | | 16.03 | | |
 | 71 | Funkcja | | | | |
 | 72 | Podobne napisy | |  | | |
 | 73 | Statystyki tekstu | | | | |
