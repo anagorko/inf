@@ -52,8 +52,8 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 91 | Numery PESEL | | | 08.03 | 08.03 |
 | 92 | Olimpiady | | | 08.03 | 08.03 |
 | 93 | Podróże | | | 08.03 | 08.03 | 
-| 94 | Centyle | | | 08.03 | |
-| 95 | Giełda Papierów Wartościowych | | | 15.03 | |
+| 94 | Centyle | | | 08.03 | 18.03 |
+| 95 | Giełda Papierów Wartościowych | | | 15.03 | 18.03 |
 | 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | 15.03 | |
 | 97 | Stopa bezrobocia | | | |
 | 98 | Dziennik ocen | | | 1.03 | |
