@@ -46,9 +46,9 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 85 | Oscypki | 16.03 | | 24.02 | 05.03 |
 | 86 | Wybory | 17.03, 30:17.77 | | | 20.03 |
 | 87 | U-977 | 18.03 | | 25.02 | 20.03 |
-| 88 | Sprzedaż choinek | | | | |
+| 88 | Sprzedaż choinek | 20.03 | | | |
 | 89 | Punkty rekrutacyjne | | | 04.03 | 08.03 |
-| 90 | Akademiki | | | 05.03 | 08.03 |
+| 90 | Akademiki | 20.03 | | 05.03 | 08.03 |
 | 91 | Numery PESEL | | | 08.03 | 08.03 |
 | 92 | Olimpiady | | | 08.03 | 08.03 |
 | 93 | Podróże | | | 08.03 | 08.03 | 
