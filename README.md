@@ -57,7 +57,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | 15.03 | 19.03 |
 | 97 | Stopa bezrobocia | | | 19.03 | 19.03 |
 | 98 | Dziennik ocen | | | 1.03 | |
-| 99 | Bezpieczeństwo w szkole | | | | 20.03 |
+| 99 | Bezpieczeństwo w szkole | | | 20.03 | |
 | 100 | E-learning | | | | |
 | 101 | Karta MaturaSport | | | | |
 | 102 | Portal społecznościowy | | | | |
