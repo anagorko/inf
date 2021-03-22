@@ -29,7 +29,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 68 | Napisy — anagramy | 8.03 | 15.03 | | |
 | 69 | Geny | 8.03 | 15.03 | | |
 | 70 | Zasłona | | 16.03 | 22.03 | |
-| 71 | Funkcja | | 17.03 | | |
+| 71 | Funkcja | | 17.03 | 22.03 | |
 | 72 | Podobne napisy | | 22.03 | | |
 | 73 | Statystyki tekstu | | | | |
 | 74 | Hasła | | | | |
