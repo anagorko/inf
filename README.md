@@ -45,7 +45,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 84 | LPG | 14.03 | 01.03 | 23.02 | 05.03 |
 | 85 | Oscypki | 16.03 | 22.03 | 24.03 | 05.03 |
 | 86 | Wybory | 17.03, 30:17.77 | 25.03 | | 20.03 |
-| 87 | U-977 | 18.03 | | 25.02 | 20.03 |
+| 87 | U-977 | 18.03 | 25.03 | 25.02 | 20.03 |
 | 88 | Sprzedaż choinek | 20.03 | | | 21.03 |
 | 89 | Punkty rekrutacyjne | | | 04.03 | 08.03 |
 | 90 | Akademiki | 20.03 | | 05.03 | 08.03 |
