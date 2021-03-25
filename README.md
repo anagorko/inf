@@ -43,8 +43,8 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 82 | Piraci | 8.03 | 25.02 | 23.02 | 25.02 |
 | 83 | Wilki i zające | 9.03 | 27.02 | | 01.03 |
 | 84 | LPG | 14.03 | 01.03 | 23.02 | 05.03 |
-| 85 | Oscypki | 16.03 | 22.03 | 24.02 | 05.03 |
-| 86 | Wybory | 17.03, 30:17.77 | | | 20.03 |
+| 85 | Oscypki | 16.03 | 22.03 | 24.03 | 05.03 |
+| 86 | Wybory | 17.03, 30:17.77 | 25.03 | | 20.03 |
 | 87 | U-977 | 18.03 | | 25.02 | 20.03 |
 | 88 | Sprzedaż choinek | 20.03 | | | 21.03 |
 | 89 | Punkty rekrutacyjne | | | 04.03 | 08.03 |
