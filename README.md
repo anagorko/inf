@@ -31,7 +31,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 70 | Zasłona | | 16.03 | 22.03 | |
 | 71 | Funkcja | | 17.03 | 22.03 | |
 | 72 | Podobne napisy | | 22.03 | | |
-| 73 | Statystyki tekstu | | | | |
+| 73 | Statystyki tekstu | | 02.04 | | |
 | 74 | Hasła | | | | |
 | 75 | Szyfr afiniczny | | | | |
 | 76 | Szyfr | | | | |
