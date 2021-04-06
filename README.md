@@ -32,7 +32,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 71 | Funkcja | | 17.03 | 22.03 | |
 | 72 | Podobne napisy | | 22.03 | | |
 | 73 | Statystyki tekstu | | 02.04 | | |
-| 74 | Hasła | | | | |
+| 74 | Hasła | | 06.04 | | |
 | 75 | Szyfr afiniczny | | | | |
 | 76 | Szyfr | | | | |
 | 77 | Szyfr Vigenère’a | | | | |
