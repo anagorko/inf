@@ -59,7 +59,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 98 | Dziennik ocen | 24.03 | | 1.03 | 24.03 |
 | 99 | Bezpieczeństwo w szkole | | | 20.03 | 24.03 |
 | 100 | E-learning | | | 23.03 | |
-| 101 | Karta MaturaSport | | | | |
+| 101 | Karta MaturaSport | | | 14.04 | |
 | 102 | Portal społecznościowy | | | | |
 | 103 | Rentgenodiagnostyka | | | | |
 | 104 | Leki refundowane | | | | |
