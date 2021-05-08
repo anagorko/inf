@@ -58,7 +58,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 97 | Stopa bezrobocia | | | 19.03 | 19.03 |
 | 98 | Dziennik ocen | 24.03 | 28.04 | 1.03 | 24.03 |
 | 99 | Bezpieczeństwo w szkole | | 28.04 | 20.03 | 24.03 |
-| 100 | E-learning | | | 23.03 | |
+| 100 | E-learning | | 08.05 | 23.03 | |
 | 101 | Karta MaturaSport | | | 14.04 | |
 | 102 | Portal społecznościowy | | | | |
 | 103 | Rentgenodiagnostyka | | | | |
