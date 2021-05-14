@@ -59,10 +59,10 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 98 | Dziennik ocen | 24.03 | 28.04 | 1.03 | 24.03 |
 | 99 | Bezpieczeństwo w szkole | | 28.04 | 20.03 | 24.03 |
 | 100 | E-learning | | 08.05 | 23.03 | |
-| 101 | Karta MaturaSport | | | 14.04 | |
-| 102 | Portal społecznościowy | | | | |
-| 103 | Rentgenodiagnostyka | | | | |
-| 104 | Leki refundowane | | | | |
+| 101 | Karta MaturaSport | | 13.05 | 14.04 | |
+| 102 | Portal społecznościowy | | 14.05 | | |
+| 103 | Rentgenodiagnostyka | | 14.05 | | |
+| 104 | Leki refundowane | | 14.05 | | |
 | 105 | Rośliny ogrodowe | | | | |
 | 106 | Obserwacje ptaków || | | | 
 | 107 | Loty pasażerskie || | | |
