@@ -35,7 +35,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 74 | Hasła | | 06.04 | | |
 | 75 | Szyfr afiniczny | | 17.04 | | |
 | 76 | Szyfr | | 15.05 | | |
-| 77 | Szyfr Vigenère’a | | | | |
+| 77 | Szyfr Vigenère’a | | 15.05 | | |
 | 78 | Podpis elektroniczny | | | | |
 | 79 | Okręgi | | | | |
 | 80 | Trójkąty | | | | |
