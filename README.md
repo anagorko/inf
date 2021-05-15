@@ -64,7 +64,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 103 | Rentgenodiagnostyka | | 14.05 | | |
 | 104 | Leki refundowane | | 14.05 | | |
 | 105 | Rośliny ogrodowe | | 15.05 | | |
-| 106 | Obserwacje ptaków || | | | 
+| 106 | Obserwacje ptaków || 15.05 | | | 
 | 107 | Loty pasażerskie || | | |
 | 108 | Stacje benzynowe || | | |
 | 109 | Urządzenia budowlane || | | |
