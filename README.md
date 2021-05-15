@@ -65,7 +65,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 104 | Leki refundowane | | 14.05 | | |
 | 105 | Rośliny ogrodowe | | 15.05 | | |
 | 106 | Obserwacje ptaków || 15.05 | | | 
-| 107 | Loty pasażerskie || | | |
+| 107 | Loty pasażerskie || 15.05 | | |
 | 108 | Stacje benzynowe || | | |
 | 109 | Urządzenia budowlane || | | |
 | 110 | Miejscowości w Polsce || | | | 
