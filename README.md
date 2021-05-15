@@ -63,7 +63,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 102 | Portal społecznościowy | | 14.05 | | |
 | 103 | Rentgenodiagnostyka | | 14.05 | | |
 | 104 | Leki refundowane | | 14.05 | | |
-| 105 | Rośliny ogrodowe | | | | |
+| 105 | Rośliny ogrodowe | | 15.05 | | |
 | 106 | Obserwacje ptaków || | | | 
 | 107 | Loty pasażerskie || | | |
 | 108 | Stacje benzynowe || | | |
