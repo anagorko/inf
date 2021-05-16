@@ -67,7 +67,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 106 | Obserwacje ptaków || 15.05 | | | 
 | 107 | Loty pasażerskie || 15.05 | | |
 | 108 | Stacje benzynowe || 16.05 | | |
-| 109 | Urządzenia budowlane || | | |
+| 109 | Urządzenia budowlane || 16.05 | | |
 | 110 | Miejscowości w Polsce || | | | 
 | 111 | Malware | | | | | 
 | 112 | Kod EAN | | | | |
