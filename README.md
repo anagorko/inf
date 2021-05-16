@@ -66,7 +66,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 105 | Rośliny ogrodowe | | 15.05 | | |
 | 106 | Obserwacje ptaków || 15.05 | | | 
 | 107 | Loty pasażerskie || 15.05 | | |
-| 108 | Stacje benzynowe || | | |
+| 108 | Stacje benzynowe || 16.05 | | |
 | 109 | Urządzenia budowlane || | | |
 | 110 | Miejscowości w Polsce || | | | 
 | 111 | Malware | | | | | 
