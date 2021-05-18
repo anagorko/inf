@@ -22,7 +22,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 61 | Ciągi arytmetyczne | 20.02 | 27.02 | | |
 | 62 | Liczby ósemkowe | 20.02 | 28.02 | | |
 | 63 | Ciągi zerojedynkowe | 23.02 | 28.02 | | |
-| 64 | Obrazki | 2.03 | ppkty 1, 2, 3 | | |
+| 64 | Obrazki | 2.03 | 18.05 | | |
 | 65 | Ułamki | 6.03 | 10.03 | | |
 | 66 | Trójki liczb |6.03 | 10.03 | | |
 | 67 | Binarny fraktal Fibonacciego | | 14.03 | | |
