@@ -70,7 +70,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 109 | Urządzenia budowlane || 16.05 | | |
 | 110 | Miejscowości w Polsce || 18.05 | | | 
 | 111 | Malware | | 18.05 | | | 
-| 112 | Kod EAN | | | | |
+| 112 | Kod EAN | | 18.05 | | |
 
 ## Przestrogi i morały
 
