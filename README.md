@@ -53,7 +53,7 @@ Rozwiązania proszę umieszczać w repozytorium a poniżej zapisać datę rozw
 | 92 | Olimpiady | | 06.04 | 08.03 | 08.03 |
 | 93 | Podróże | | 07.04 | 08.03 | 08.03 | 
 | 94 | Centyle | | 16.05 | 08.03 | 18.03 |
-| 95 | Giełda Papierów Wartościowych | | | 15.03 | 18.03 |
+| 95 | Giełda Papierów Wartościowych | | 18.05 | 15.03 | 18.03 |
 | 96 | Prognoza liczby ludności w Polsce do roku 2050 | | | 15.03 | 19.03 |
 | 97 | Stopa bezrobocia | | | 19.03 | 19.03 |
 | 98 | Dziennik ocen | 24.03 | 28.04 | 1.03 | 24.03 |
